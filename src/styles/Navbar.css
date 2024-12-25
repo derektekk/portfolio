@@ -1,16 +1,13 @@
 .navbar-container {
-    padding: 10px;
-    /* background-color: #1F2023;
-    background: transparent;
-    backdrop-filter: blur(9px); */
-
-    background-color: rgba(31, 32, 35, 0.9); /* Dark color with 90% opacity */
+    padding: 14px;
+    background-color: rgba(31, 32, 35, 0.9);
     backdrop-filter: blur(8px);
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
     z-index: 1000;
+    /* box-shadow: 0 2px 4px 0 rgba(157, 157, 157, 0.5); */
 }
 
 .navbar-list {
