@@ -1,0 +1,35 @@
+.navbar-container {
+    padding: 10px;
+    background-color: #1F2023;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    /* z-index: 1000; */
+}
+
+.navbar-list {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    gap: 8px;
+}
+.navbar-item {
+    margin: 0px 16px;
+    padding: 8px 0px;
+}
+
+.navbar-item a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 16px;
+    display: inline-block;
+    transition: transform 0.1s ease, color 0.1s ease;
+}
+
+.navbar-item a:hover {
+    transform: scale(1.1);
+}
+
